@@ -1,0 +1,35 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-image {
+  height: 150px;
+  width: 150px;
+}
+
+.home-heading {
+  color: #12022f;
+  font-family: 'Roboto';
+}
+
+.para-text {
+  color: #616e7c;
+  font-size: 18px;
+}
+
+.user-info-list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}

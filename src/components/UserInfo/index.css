@@ -1,0 +1,33 @@
+.list-item {
+  padding: 20px;
+}
+
+.post-top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-title {
+  color: #12022f;
+  font-size: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .post-title {
+    font-size: 28px;
+  }
+}
+
+.time-text {
+  color: #616e7c;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #616e7c;
+}
